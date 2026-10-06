@@ -1,12 +1,16 @@
 # pallas-design-tokens
 
-Public mirror of `shared/design-tokens.json` from the private `pallas` app repo.
+Single source of truth for Pallas's color/radius/font-size design tokens
+(`design-tokens.json`). Public so both consumers can install it as a plain
+git dependency with no auth:
 
-`pallas` remains the single source of truth for these values (it's also consumed
-directly by `universal/tailwind.config.js` there). This repo exists only so that
-`pallas-marketing-site` can install it as a git dependency without needing
-credentials for a second private repo — see that repo's
-`scripts/src/generate-tokens.ts`.
+- `pallas` (private app repo) — `universal/tailwind.config.js` and the
+  transactional email templates in `server/services/emails/`.
+- `pallas-marketing-site` — generates its CSS custom properties from the
+  same values, see that repo's `scripts/src/generate-tokens.ts`.
 
-**To update**: copy the latest `shared/design-tokens.json` from `pallas` over the
-one here, commit, and push. There's no automated sync yet.
+To change a token: edit `design-tokens.json` here, commit, push, then in
+each consuming repo run `npm update pallas-design-tokens` (or `pnpm update
+pallas-design-tokens` in pallas-marketing-site) to pick up the new commit —
+a plain `install` reuses whatever commit is already recorded in the
+lockfile and won't refetch on its own.
