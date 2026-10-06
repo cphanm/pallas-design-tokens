@@ -1,0 +1,6 @@
+{
+  "name": "pallas-design-tokens",
+  "version": "1.0.0",
+  "description": "Pallas's color/radius/font-size design tokens. Public mirror of design-tokens.json from the private pallas app repo's shared/ folder (that repo remains the single source of truth — edit there, then re-sync here). Consumed by pallas-marketing-site as a git dependency to generate its CSS custom properties from the same values.",
+  "main": "design-tokens.json"
+}
