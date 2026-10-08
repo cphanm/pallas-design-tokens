@@ -5,8 +5,8 @@
     "border": "#e2e8f0",
     "muted": "#f1f5f9",
     "mutedForeground": "#64748b",
-    "secondary": "#a47b0a",
-    "secondaryForeground": "#fff6f0",
+    "secondary": "#916d09",
+    "secondaryForeground": "#ffffff",
     "destructive": "#ef4444",
     "destructiveForeground": "#f9fafb",
     "accent": "#ffcaa8"
