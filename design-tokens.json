@@ -1,11 +1,11 @@
 {
   "colors": {
     "background": "#ffffff",
-    "foreground": "#1f2933",
+    "foreground": "#1b2a4a",
     "border": "#e2e8f0",
     "muted": "#f1f5f9",
     "mutedForeground": "#334155",
-    "secondary": "#664c06",
+    "secondary": "#916d09",
     "secondaryForeground": "#ffffff",
     "destructive": "#8f2929",
     "destructiveForeground": "#f9fafb",
