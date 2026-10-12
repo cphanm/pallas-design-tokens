@@ -4,10 +4,10 @@
     "foreground": "#1f2933",
     "border": "#e2e8f0",
     "muted": "#f1f5f9",
-    "mutedForeground": "#64748b",
-    "secondary": "#916d09",
+    "mutedForeground": "#334155",
+    "secondary": "#664c06",
     "secondaryForeground": "#ffffff",
-    "destructive": "#ef4444",
+    "destructive": "#8f2929",
     "destructiveForeground": "#f9fafb",
     "accent": "#ffcaa8"
   },
