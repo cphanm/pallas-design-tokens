@@ -29,5 +29,8 @@
     "2xl": { "size": "1.625rem", "lineHeight": "2.125rem" },
     "3xl": { "size": "2rem", "lineHeight": "2.5rem" },
     "4xl": { "size": "2.375rem", "lineHeight": "2.75rem" }
+  },
+  "opacity": {
+    "muted": 0.75
   }
 }
